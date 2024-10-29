@@ -1,0 +1,24 @@
+# Ebus Management Based Current Location System
+
+## Project Overview
+This project is designed to manage bus information based on the current location of the user. The application is built using HTML, CSS, and JavaScript with Firebase for backend services.
+
+### Key Features
+- **User Registration & Login:** Allows users to register and login.
+- **Bus Information:** Drivers can post bus details.
+
+### Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Firebase Database
+
+### Project Setup
+- Clone the repository
+- Add your Firebase configuration in `firebaseConfig.js`
+- Open `index.html` in a browser to test the application
+
+## Modules
+- **Admin Module**: Register and manage drivers
+- **User Module**: Register, login, and view bus information
+
+## Deployment
+- This project can be hosted on Firebase Hosting or any other static web hosting platform.

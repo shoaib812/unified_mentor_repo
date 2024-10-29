@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="teacher.js" defer></script>
+</head>
+<body>
+  <form>
+  <h1>Teacher Dashboard</h1>
+  
+  <h2>Schedule Appointment</h2>
+  <form id="schedule-appointment-form">
+    Fix Appointment Date : <input type="datetime-local" id="appointment-time" required><br/><br/>
+    <button type="submit">Schedule Appointment</button><br/><br/>
+  </form>
+
+  <h2>Messages</h2>
+  <div id="message-list"></div>
+
+  <h2>View Appointments</h2>
+  <div id="appointment-list"></div>
+  </form>
+</body>
+</html>
